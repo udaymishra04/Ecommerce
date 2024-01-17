@@ -1,0 +1,32 @@
+.HeroBg{
+  width: 100%;
+  height: 90vh;
+}
+
+.logo, .searchIcon, .shopBag, .profilePic{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(78deg) brightness(104%) contrast(100%);
+}
+
+.HeroBg-Container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.HeroBg-text {
+  display: grid;
+  gap: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.HeroBg-button {
+  width: 130px;
+  height: 50px;
+  display: grid;
+  justify-self: center;
+  align-items: center;
+}

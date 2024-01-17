@@ -1,0 +1,25 @@
+
+.footer {
+  padding: 2rem 8rem;
+  background-color: rgb(28, 28, 28);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.PlaystoreImg, .AppstoreImg {
+  width: 125px;
+  height: 40px;
+}
+.footer-logo{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(78deg) brightness(104%) contrast(100%);
+}
+
+.footer-left, .footer-center, .footer-right {
+  display: grid;
+  gap: 15px;
+  justify-items: center;
+}
+
+.footer-right h3, .footer-left h4{
+  text-decoration: underline;
+}

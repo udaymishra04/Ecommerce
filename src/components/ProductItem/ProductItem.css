@@ -1,0 +1,43 @@
+
+.productImg {
+  width: 200px;
+  height: 200px;
+}
+
+
+.productTitle {
+  text-align: center;
+}
+
+.star-rating, .productReview {
+  display: inline-block;
+}
+
+.productRating {
+  display: flex;
+  gap: 10px;
+}
+
+.productPrice {
+  color: rgb(173, 44, 44);
+}
+
+.productItemList {
+  width: min-content;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* justify-items: center; */
+}
+
+.ProductItem {
+  width: 250px;
+  display: grid;
+  justify-items: center;
+  transition: transform .2s;
+}
+
+.ProductItem:hover {
+  transform: scale(1.10);
+}

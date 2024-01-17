@@ -1,0 +1,14 @@
+.nav-bar{
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.navigations,.profile-navigation{
+  display: flex;
+  gap: 30px;
+}
