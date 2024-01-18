@@ -8,6 +8,10 @@
   color: white;
 }
 
+.logo, .searchIcon, .shopBag, .profilePic{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(78deg) brightness(104%) contrast(100%);
+}
+
 .navigations,.profile-navigation{
   display: flex;
   gap: 30px;
