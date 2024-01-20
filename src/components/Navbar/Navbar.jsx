@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import './Navbar.css';
 import HomePage from "../HomePage";
 import Contact from "../Contact/Contact";
+import ProductView from "../ProductsView/ProductsView";
 
 function Navbar() {
     return (
@@ -28,9 +29,12 @@ function Navbar() {
                     </Link>
                 </div>
                 <div className='profile-navigation'>
+                        <div className="searchBox">
                     <Link to="search">
-                        <img className='searchIcon' src={searchIcon} alt="Search Icon" width="30" height='30' />
+                            <a><img className='searchIcon' src={searchIcon} width="30" height='30'></img></a>
                     </Link>
+                            <input type="text" name="search" placeholder="Search Your Product here"></input>
+                        </div>
                     <Link to="cart">
                         <img className='shopBag' src={shopBag} alt="Shop Bag" width="25" height='25' />
                     </Link>
@@ -42,7 +46,7 @@ function Navbar() {
 
             <Routes>
                 <Route exact path="/" element={<HomePage/>} />
-                <Route exact path="/product" element={"Product Section"} />
+                <Route exact path="/product" element={<ProductView />} />
                 <Route exact path="/contact" element={<Contact/>} />
                 <Route exact path="/about" element={"About Section"} />
                 <Route exact path="/search" element={"Search Box"} />

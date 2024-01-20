@@ -37,9 +37,10 @@ h2 {
   width: 400px;
   border: none;
   padding: 10px;
+  text-decoration: none;
 }
 
-.searchBoxandprofilenav{
+.profile-navigation{
   display: flex;
   align-items: center;
   gap: 20px;

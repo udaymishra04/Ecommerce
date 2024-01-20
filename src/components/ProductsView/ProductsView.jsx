@@ -23,7 +23,7 @@ function ProductView(){
 
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <h1>Products</h1>
       <hr className="product-view-hr"></hr>
       <div className="container">
@@ -83,7 +83,7 @@ function ProductView(){
           <ProductItem />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
