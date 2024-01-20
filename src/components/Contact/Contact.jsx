@@ -6,7 +6,6 @@ import './Contact.css';
 function Contact(){
   return (
     <div>
-      <Navbar />
       <div className="contactContainer">
         <form className="contactForm">
           <h1 className="heading">CONTACT US</h1>
@@ -16,7 +15,6 @@ function Contact(){
           <button>Send Message</button>
         </form>
       </div>
-      <Footer />
     </div>
   )
 }

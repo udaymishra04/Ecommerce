@@ -1,19 +1,15 @@
 import React from 'react';
 import './App.css';
-import HomePage from './components/HomePage';
-// import Contact from './components/Contact/Contact';
-import ProductsView from './components/ProductsView/ProductsView.jsx';
-import ProductDetail from './components/ProductDetail/ProductDetail.jsx';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 function App() {
-  return (
-    <div>
-      {/* <HomePage /> */}
-      <ProductDetail /> 
-      {/* <Contact /> */}
-      {/* <ProductView /> */}
-    </div>
-  );
+    return (
+        <div>
+            <Navbar />
+            <Footer />
+        </div>
+    );
 }
- 
+
 export default App;
