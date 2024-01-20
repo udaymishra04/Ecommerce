@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
 import HomePage from './components/HomePage';
-// import LoginSignup from './components/LoginSignup/LoginSignup';
-import Contact from './components/Contact/Contact';
+// import Contact from './components/Contact/Contact';
+import ProductsView from './components/ProductsView/ProductsView.jsx';
+import ProductDetail from './components/ProductDetail/ProductDetail.jsx';
 
 function App() {
   return (
     <div>
-      {/* <HomePage />  */}
-      <Contact />
+      {/* <HomePage /> */}
+      <ProductDetail /> 
+      {/* <Contact /> */}
+      {/* <ProductView /> */}
     </div>
   );
 }

@@ -1,0 +1,75 @@
+.product-details {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-detail-component {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-detail-container {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.product-detail-container h1 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.product-detail-images {
+  margin: auto 0;
+}
+
+.product-detail-main-image {
+  /* background-color: burlywood; */
+  /* padding-top: 5rem; */
+  width: 350px;
+  min-width: 200px;
+  height: auto;
+}
+
+.product-detail-rating-review{
+  display: flex;
+  gap: 5px;
+}
+
+.product-detail-price {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.product-detail-cart{
+  display: flex;
+  gap: 15px;
+}
+
+.product-cart-decrement-button, .product-cart-increment-button {
+  width: 30px;
+  height: 40px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+}
+
+.product-addtocart-button, .product-detail-review-button {
+  border-radius: 15px;
+  width: 150px;
+  border: none;
+  color: white;
+  background-color: rgb(250, 99, 72);
+}
+
+.product-detail-review-button {
+  height: 40px;
+  width: fit-content;
+  margin-top: 2rem;
+  padding: 0 2rem;
+}

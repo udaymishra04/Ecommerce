@@ -1,20 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
-.logo, .searchIcon, .shopBag, .profilePic{
-  filter: invert(0%) sepia(96%) saturate(9%) hue-rotate(258deg) brightness(86%) contrast(97%);
-}
-
 body{
   font-family: 'Montserrat', sans-serif;
   /* background-color: rgb(231, 231, 231); */
 
-}
-
-.nav-bar{
-  background-color: white;
-  color: black;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
 }
 
 .heading {

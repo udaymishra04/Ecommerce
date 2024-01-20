@@ -5,7 +5,7 @@ import shopBag from '../../images/shopBag.svg';
 import profilePic from '../../images/profilePic.svg';
 import './Navbar.css';
 
-function Navbar(){
+function Navbar(prop){
   return <div className="nav-bar">
   <img className='logo' src={logo} width="70" height="70"/>
   <div className='navigations'>
@@ -14,10 +14,15 @@ function Navbar(){
     <a>Contact</a>
     <a>About</a>
   </div>
-  <div className='profile-navigation'>
-    <a><img className='searchIcon' src={searchIcon} width="30" height='30'></img></a>
-    <a><img className='shopBag' src={shopBag} width="25" height='25'></img></a>
-    <a><img className='profilePic' src={profilePic} width="27" height='27'></img></a>
+  <div className="searchBoxandprofilenav">
+    <div className="searchBox">
+      <a><img className='searchIcon' src={searchIcon} width="30" height='30'></img></a>
+      <input type="text" name="search" placeholder="Search Your Product here"></input>
+    </div>
+    <div className='profile-navigation'>
+      <a><img className='shopBag' src={shopBag} width="25" height='25'></img></a>
+      <a><img className='profilePic' src={profilePic} width="27" height='27'></img></a>
+    </div>
   </div>
   </div>
 }

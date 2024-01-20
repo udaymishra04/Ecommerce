@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+ 
+ :root {
+  --main-color: rgb(104, 117, 217);
+  --main-color-hover: rgb(104, 117, 217, 0.2);
+  --track-color: #ddd;
+  /* Default Mark colour */
+  --mark-color: #aaaaaa;
+}
+ .customSlider {
+  /* max width of your slider */
+  width: 200px;
+  /* Optional: Only If you want to center your slider in the page */
+  margin: auto;
+}
+
+.customSlider-track {
+  /* Top value to align your track to the center of your thumb */
+  top: 8px;
+  /* thickness of the track */
+  height: 4px;
+ /* default color of your track */
+  background: var(--track-color);
+}
+
+.customSlider-track.customSlider-track-1 {
+  /* color of the track before the thumb */
+  background: var(--main-color);
+}
+
+.customSlider-thumb {
+  cursor: pointer;
+  /*color for the thumb */
+  background: var(--main-color);
+  /* shape of the thumb: circle */
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  /* remove default outline when selected */
+  outline: none;
+  /* Disappear the thumb number */
+  color: transparent;
+  user-select: none;
+}
+
+.customSlider-thumb:hover {
+  box-shadow: 0 0 0 8px var(--main-color-hover);
+}
+
+.customSlider-mark {
+  cursor: pointer;
+  top: 6px;
+  width: 1.5px;
+  height: 8px;
+  background-color: var(--mark-color);
+}
+
+
+
+.container {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0rem 3rem 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product-filtering{
+  width: 300px;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  border-right: 2px solid black;
+}
+
+.product-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: max-content;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+.product-view-hr{
+  border: none;
+  width: 500px;
+  margin: 0 auto;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+  margin-bottom: 2rem;
+}
+
+.priceRangePara {
+  margin-top: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-categories{
+  display: flex;
+  flex-direction: column;
+  transition: 0.1s ease-in;
+}
+
+.product-categories a:hover{
+  transform: scale(1.05);
+}
+
+.product-rating-checkbox {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
