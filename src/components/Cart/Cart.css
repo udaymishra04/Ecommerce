@@ -1,0 +1,137 @@
+.cart-container {
+  font-family: 'Montserrat', sans-serif;
+  padding: 3rem;
+  min-height: 60vh;
+}
+
+.cart-heading-tab {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  background-color: rgb(253, 98, 72);
+  color: white;
+  padding: 0 10px;
+}
+
+.cart-heading-tab h3{
+  font-weight: 500;
+
+}
+
+.cart-heading-subtotal {
+  text-align: right;
+}
+
+.cart-product-item {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.cart-product{
+  display: flex;
+  gap: 15px;
+}
+
+.cart-product-img {
+  width: 100px;
+  height: auto;
+}
+
+.cart-product-name p{
+  font-weight: 500;
+}
+
+.cart-product-name a{
+  color: rgb(253, 98, 72);
+}
+
+.cart-quantity-button{
+  width: 30px;
+  height: 40px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+}
+
+.cart-quantity {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.cart-product-subtotal {
+  margin-left: auto;
+  padding-right: 1rem;
+}
+
+.cart-product-price {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.cart-total-amount-outer {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.cart-total-amount {
+  grid-column: 2;
+  display: grid;
+}
+
+.cart-total-amount hr {
+  height: 3px;
+  background-color: rgb(253, 98, 72);
+  border: none;
+}
+
+.cart-total-amount div {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.cart-checkout-button {
+  height: 50px;
+  width: 350px;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  transition: .1s ease-in;
+  background-color: rgb(221, 86, 65);
+  margin: 2rem auto;
+}
+
+.cart-checkout-button:hover {
+  transform: scale(1.1);
+}
+
+/* Empty cart styling */
+
+.emptyCart-container {
+  min-height: 60vh;
+  display: grid;
+  align-items: center;
+}
+
+.emptyCart-content{ 
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.emptyCart-content img {
+  width: 100px;
+  height: auto;
+}
+
+.emptyCart-button {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: white;
+}

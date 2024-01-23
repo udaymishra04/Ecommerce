@@ -8,12 +8,16 @@ import './Navbar.css';
 import HomePage from "../HomePage";
 import Contact from "../Contact/Contact";
 import ProductView from "../ProductsView/ProductsView";
+import Profile from "../Profile/Profile.jsx";
+import Cart from "../Cart/Cart.jsx";
 
 function Navbar() {
     return (
         <BrowserRouter forceRefresh={true}>
             <div className="nav-bar">
-                <img className='logo' alt="Logo" src={logo} width="70" height="70" />
+                <Link to="/">
+                    <img  className='logo' alt="Logo" src={logo} width="70" height="70" />
+                </Link>
                 <div className='navigations'>
                     <Link to="/">
                         <h2>Home</h2>
@@ -50,8 +54,8 @@ function Navbar() {
                 <Route exact path="/contact" element={<Contact/>} />
                 <Route exact path="/about" element={"About Section"} />
                 <Route exact path="/search" element={"Search Box"} />
-                <Route exact path="/cart" element={"Cart Bag Page"} />
-                <Route exact path="/profile" element={"Profile page"} />
+                <Route exact path="/cart" element={<Cart />} />
+                <Route exact path="/profile" element={<Profile />} />
             </Routes>
         </BrowserRouter>
     )

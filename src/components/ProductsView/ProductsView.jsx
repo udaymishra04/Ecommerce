@@ -24,7 +24,7 @@ function ProductView(){
   return (
     <div>
       {/* <Navbar /> */}
-      <h1>Products</h1>
+      <h1 className="product-view-heading">Products</h1>
       <hr className="product-view-hr"></hr>
       <div className="container">
         <div className="product-filtering">

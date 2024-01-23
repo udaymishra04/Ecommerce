@@ -1,5 +1,5 @@
 import React from "react";
-import ProductObj from "../../ProductOjb";
+import ProductObj from "../DataObj/ProductOjb";
 import Rating from '@mui/material/Rating';
 
 function PDetailComp(){

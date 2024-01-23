@@ -82,7 +82,7 @@
   width: max-content;
 }
 
-h1 {
+.product-view-heading {
   text-align: center;
   margin-top: 2rem;
 }

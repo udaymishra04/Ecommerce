@@ -42,7 +42,7 @@ textarea{
   padding: 10px;
 }
 
-button {
+.contact-button {
   width: 250px;
   height: 50px;
   background-color: black;
@@ -52,6 +52,6 @@ button {
   transition: .1s ease-in;
 }
 
-button:hover {
+.contact-button:hover {
   transform: scale(1.1);
 }

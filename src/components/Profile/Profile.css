@@ -1,0 +1,71 @@
+.profile-container {
+  display: flex;
+}
+
+.profile-image img{
+  width: 450px;
+  height: auto;
+}
+
+.outer-container {
+  /* width: 100vw; */
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.outer-container h1 {
+  text-align: center;
+  color: rgb(105, 104, 100);
+}
+
+.profile-container{
+  width: 100%;
+}
+
+.profile-image-container {
+  width: 50%;
+  display: grid;
+  justify-items: center;
+}
+
+.profile-detail-container {
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile-buttons button, .profile-edit-button {
+  width: 350px;
+}
+
+.profile-edit-button{
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: .1s ease-in;
+  background-color: rgb(221, 86, 65);
+  height: 50px;
+}
+
+.profile-buttons button{
+  background-color: rgb(62, 62, 62);
+  border: none;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: .1s ease-in;
+  height: 50px;
+}
+
+.profile-buttons button:hover, .profile-edit-button:hover{
+  transform: scale(1.1);
+}
