@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.checkout-detail-container {
+  font-family: 'Montserrat', sans-serif;
+  margin: 1rem 0 5rem 0;
+}
+
+.checkout-detail-shipping ,.checkout-detail-bank{
+  width: 50px;
+  height: auto;
+}
+
+.checkout-detail-confirm  {
+  width: 40px;
+  height: auto;  
+}
+
+.checkout-line {
+  width: 450px;
+  height: 4px;
+  background-color: black;
+
+}
+
+.checkout-detail-timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkout-detail-shipping {
+  filter: invert(53%) sepia(8%) saturate(4919%) hue-rotate(320deg) brightness(99%) contrast(104%);
+}
+
+.checkout-detail img{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.checkout-detail {
+  display: flex;
+  gap: 10px;
+  padding: 0 10px;
+  align-items: center;
+  height: 50px;
+  border: 2px solid black;
+  margin-top: 1.75rem;
+}
+
+.checkout-detail input {
+  height: 50px;
+  width: 300px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.checkout-detail-form {
+  width: 450px;
+}
+
+.checkout-detail-content{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+}
+
+.checkout-detail-heading {
+  text-align: center;
+}
+
+.checkout-detail-button {
+  width: 450px;
+  height: 50px;
+  margin-top: 3rem;
+  background-color: #ff624e;
+  color: white;
+  border: none;
+  outline: none;
+  transition: all .1s ease-in;
+}
+
+.checkout-detail-button:hover {
+  transform: scale(1.1);
+}

@@ -6,7 +6,7 @@ function HomePage(){
   return (    
   <div>
     <HeroSection />
-    <div className='featuredProduct'>
+    <div id="featuredProduct" className='featuredProduct'>
       <h2>Featured Products</h2>
       <hr/>
       <div className='productItemList'>

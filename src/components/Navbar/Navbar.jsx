@@ -10,6 +10,7 @@ import Contact from "../Contact/Contact";
 import ProductView from "../ProductsView/ProductsView";
 import Profile from "../Profile/Profile.jsx";
 import Cart from "../Cart/Cart.jsx";
+import CheckoutDetail from "../Checkout/CheckoutDetail.jsx";
 
 function Navbar() {
     return (
